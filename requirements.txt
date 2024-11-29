@@ -3,3 +3,4 @@ Flask-Cors
 tensorflow
 opencv-python
 numpy
+google-api-python-client
