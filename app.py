@@ -12,7 +12,8 @@ app = Flask(__name__)
 CORS(app)  # Allows cross-origin requests (necessary for frontend-backend communication)
 
 # Load your trained model
-model = tf.keras.models.load_model('D:\Machine learning\emotion-music-project\emotion-music-backend\emotiondetector.h5')
+model = tf.keras.models.load_model('emotiondetector.h5')
+
 
 # Set up YouTube API
 YOUTUBE_API_KEY = 'AIzaSyBLeiHS_n7iKhDLchAwCsSYYaogzSpuHaA'
